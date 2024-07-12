@@ -1,0 +1,7 @@
+
+{
+    "model": "efficientnet_b2",
+    "epoch":100,
+    "batch_size":32,
+    "image_size":380
+}

@@ -1,0 +1,10 @@
+OMP_NUM_THREADS=1 torchrun --nproc_per_node=1 --nnodes=1 src/train_sbi.py src/configs/efficientnet/efficientnet_b0.json
+OMP_NUM_THREADS=1 torchrun --nproc_per_node=1 --nnodes=1 src/train_sbi.py src/configs/efficientnet/efficientnet_b1.json
+OMP_NUM_THREADS=1 torchrun --nproc_per_node=1 --nnodes=1 src/train_sbi.py src/configs/efficientnet/efficientnet_b2.json
+OMP_NUM_THREADS=1 torchrun --nproc_per_node=1 --nnodes=1 src/train_sbi.py src/configs/efficientnet/efficientnet_b3.json
+OMP_NUM_THREADS=1 torchrun --nproc_per_node=1 --nnodes=1 src/train_sbi.py src/configs/efficientnet/efficientnet_b4.json
+OMP_NUM_THREADS=1 torchrun --nproc_per_node=1 --nnodes=1 src/train_sbi.py src/configs/efficientnet/efficientnet_b5.json
+OMP_NUM_THREADS=1 torchrun --nproc_per_node=1 --nnodes=1 src/train_sbi.py src/configs/efficientnet/efficientnet_el_pruned.json
+OMP_NUM_THREADS=1 torchrun --nproc_per_node=1 --nnodes=1 src/train_sbi.py src/configs/efficientnet/efficientnet_el.json
+OMP_NUM_THREADS=1 torchrun --nproc_per_node=1 --nnodes=1 src/train_sbi.py src/configs/efficientnet/efficientnet_em.json
+OMP_NUM_THREADS=1 torchrun --nproc_per_node=1 --nnodes=1 src/train_sbi.py src/configs/efficientnet/efficientnet_es.json
